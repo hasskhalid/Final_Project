@@ -44,6 +44,7 @@ body{
     align-content: center;
     text-align: center;
     alignment: center;
+    padding-bottom: 100px;
 }
 
 .row .message{
