@@ -2,9 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="../styles/main.css" rel="stylesheet">
+    <title>Echo Air, a flying service!</title>
+    <link rel="shortcut icon" href="../images/logo_mini.ico" type="image/x-icon">
+    <link href="../styles/packages.css" rel="stylesheet">
 </head>
 <body>
 
+<a href="../home.html"><img src="../images/logo_white.jpg" alt="logo" class="my_logo"></a>
+
+<nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../home.html">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="flights.html">
+                        Domestic Flights
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Tours
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="packages.html">Packages</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        Contact Information
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="about.html">
+                        About Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<h1 class="display-1 text-center">Packages</h1>
+
+<div class="info">
+
+    <div class="heli">
+    <p class="text-center h2">A-Star Model Helicopter </p>
+    <img src="../images/astar.jpg" alt="helicopter" class="rounded mx-auto d-block">
+    </div>
+
+    <p class="text-center h1">Tour Information</p>
+    <p class="text-left">
+        Our life-changing tours are designed to make sure our clients get the best experience and make wonderful
+        memories along the way! We will fly you and your loved ones around the greatest city on Earth, giving you
+        the most spectacular views. We offer 2 routes that will both give you an amazing time of your life. Please
+        check below our options and see which package suites your needs best!
+    </p>
+
+    <p class="h4">We have 2 packages: </p>
+        <ul>
+            <li>Silver Package
+                <ul>
+                    <li>Price: $175 </li>
+                    <li>Duration: 35 minutes</li>
+                </ul>
+            </li>
+            <li>Gold Package
+                <ul>
+                    <li>Price: $250</li>
+                    <li>Duration: 50 minutes </li>
+                </ul>
+            </li>
+        </ul>
+</div>
+
+<div class="card-group">
+    <div class="card">
+        <img class="card-img-top" src="../images/silver.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Silver Package</h5>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="../images/gold.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Gold Package</h5>
+        </div>
+    </div>
+</div>
+
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted"><a href="tos.html"> Terms Of Use</a>  |
+                <a href="privstatement.html"> Privacy Statement</a> | &copy Hassan Khalid</span>
+        </div>
+    </div>
+</footer>
 </body>
 </html>

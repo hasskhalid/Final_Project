@@ -1,0 +1,20 @@
+.info{
+    margin: auto;
+    width: 90%;
+    padding: 0 0 0 65px;
+}
+
+.heli{
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #f594a7;
+}
+
+.card-group{
+    margin: auto;
+    position: relative;
+    width: 90%;
+    padding-bottom: 100px;
+}

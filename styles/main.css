@@ -6,6 +6,7 @@
 body{
     margin: 0 auto;
     background-color: white;
+    font-size: 20px;
 }
 
 .my_logo{
@@ -16,35 +17,60 @@ body{
     display: block;
 }
 
-.navbar .navbar-nav {
-    position: relative;
-    float: none;
-    text-align: center;
-    margin: auto;
-}
-
 .form-inline{
-    position: relative;
-    float: right;
-    alignment: right;
     margin: auto;
+    width: 90%;
+    float: right;
+    align-content: center;
+    alignment: center;
     text-align: center;
 }
 
-.form-inline input{
-    position: relative;
-    float: right;
-    alignment: right;
+.navbar{
     margin: auto;
-    text-align: center;
+    width: 90%;
+    alignment: right;
+}
+
+#carouselExampleControls{
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .carousel-inner img{
-    height: 1000px;
-    width: 500px;
+    height: 500px;
 }
 
+.card{
+    position: relative;
+    align-content: center;
+    text-align: center;
+    alignment: center;
+}
 
+.row .message{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.footer{
+    position: fixed;
+    margin: 0 65px;
+    left: 0;
+    bottom: 0;
+    width: 90%;
+    alignment: center;
+    align-content: center;
+    background-color: #f594a7;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+}
 
 
 
