@@ -35,12 +35,8 @@ body{
 #carouselExampleControls{
     position: relative;
     overflow: hidden;
-    width: 90%;
     margin: 0 auto;
-}
-
-.carousel-inner img{
-    height: 500px;
+    width: 50%;
 }
 
 .card{
